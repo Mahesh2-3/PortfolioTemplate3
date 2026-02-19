@@ -41,10 +41,10 @@ function ProjectCard({ data, index }) {
               <FaGithub /> Code
             </a>
             <a
-              href={"/"}
+              href={data.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg border font-semibold hover:bg-primary transition"
+              className="flex items-center gap-2 px-4 py-2 rounded-lg border font-semibold hover:bg-primary hover:text-black transition"
             >
               <FaExternalLinkAlt /> Live
             </a>

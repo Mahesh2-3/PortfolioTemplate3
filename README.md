@@ -34,6 +34,29 @@ npm run dev
 
 Open your browser and navigate to `http://localhost:5173` to see your portfolio.
 
+## 🎨 Customization
+
+### 1. Update Personal Data
+
+Navigate to `src/constants.js`. This file contains all the data for the website.
+
+- **Hero Section**: Update the `hero` object with your name, role, and bio.
+- **Experience**: modifications to `works` array.
+- **Skills**: Update `skills` array with your technical skills (images are in `public/tech`).
+- **Projects**: Update `projects` array with your project details, images, and links.
+- **Contact**: Update `ContactContent` with your email and social media links.
+
+### 2. Update Images
+
+- Place your images in the `public/` folder.
+- Update the image paths in `src/constants.js` to match your filenames (e.g., `/your-image.png`).
+- Make sure to replace `profile.png`, `logo.png` and project images with your own.
+
+### 3. Update Links
+
+- Check `src/constants.js` for `Navlinks` and social media links in `ContactContent`.
+- Ensure all external links (GitHub, LinkedIn, live demos) are pointing to your profiles/projects.
+
 ## 🛠️ Built With
 
 - [React](https://react.dev/) - UI Library
