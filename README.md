@@ -34,28 +34,48 @@ npm run dev
 
 Open your browser and navigate to `http://localhost:5173` to see your portfolio.
 
-## 🎨 Customization
+## 🎨 Configuration
 
-### 1. Update Personal Data
+This project is designed to be easily customizable without touching the code. ALL data is located in `src/constants.js`.
 
-Navigate to `src/constants.js`. This file contains all the data for the website.
+### 1. Update Content
 
-- **Hero Section**: Update the `hero` object with your name, role, and bio.
-- **Experience**: modifications to `works` array.
-- **Skills**: Update `skills` array with your technical skills (images are in `public/tech`).
-- **Projects**: Update `projects` array with your project details, images, and links.
-- **Contact**: Update `ContactContent` with your email and social media links.
+Open `src/constants.js` in your code editor. You will see several sections:
 
-### 2. Update Images
+- **Site Configuration**: Change the `siteConfig` object to update the browser tab title and SEO description.
+- **Navigation**: Update or reorder links in `Navlinks`.
+- **Hero Section**: Update your name, role, and "About Me" text in the `hero` object.
+- **Section Titles**: You can rename "About Me", "Experience", etc., in the `sectionTitles` object.
+- **Work Experience**: Add your jobs to the `works` array.
+- **Skills**: Add your skills to the `skills` array.
+- **Projects**: Add your projects to the `projects` array.
+- **Contact**: Update your email and social links in `ContactContent`.
 
-- Place your images in the `public/` folder.
-- Update the image paths in `src/constants.js` to match your filenames (e.g., `/your-image.png`).
-- Make sure to replace `profile.png`, `logo.png` and project images with your own.
+### 2. Add Your Images
 
-### 3. Update Links
+1.  Go to the `public` folder.
+2.  Paste your images here (e.g., `my-profile.jpg`, `project-1.png`).
+3.  In `src/constants.js`, update the image paths to match your filenames. For example, if you added `my-profile.jpg`, change the path to `/my-profile.jpg`.
 
-- Check `src/constants.js` for `Navlinks` and social media links in `ContactContent`.
-- Ensure all external links (GitHub, LinkedIn, live demos) are pointing to your profiles/projects.
+## 🍴 How to Fork (Copy) this Repository
+
+To create your own copy of this template:
+
+1.  Click the **Fork** button in the top-right corner of this GitHub page.
+2.  Select your GitHub profile as the owner.
+3.  This will create a copy of the repository in your own GitHub account.
+4.  You can now clone your own forked repository and push changes to it.
+
+## 🚀 Deployment to Vercel
+
+The easiest way to publish your website is using Vercel.
+
+1.  Create an account at [vercel.com](https://vercel.com).
+2.  Click **Add New...** -> **Project**.
+3.  Select **Continue with GitHub**.
+4.  Find your forked repository (`PortfolioTemplate3`) and click **Import**.
+5.  Click **Deploy**.
+6.  Vercel will give you a live URL (e.g., `portfolio-template-3.vercel.app`) where your site is online!
 
 ## 🛠️ Built With
 
@@ -78,4 +98,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-If you find this template helpful, please give it a ⭐ on [GitHub](https://github.com/Mahesh2-3/PortfolioTemplate1)!
+If you find this template helpful, please give it a ⭐ on [GitHub](https://github.com/Mahesh2-3)!

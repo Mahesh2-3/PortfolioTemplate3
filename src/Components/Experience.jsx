@@ -1,5 +1,5 @@
 import React from "react";
-import { works } from "../constants";
+import { works, sectionTitles } from "../constants";
 
 function ExperienceCard({ data, index }) {
   return (
@@ -19,7 +19,7 @@ function ExperienceCard({ data, index }) {
 const Experience = () => {
   return (
     <div id="experience" className="lg:w-[80%]  w-full mx-auto px-5 pt-20">
-      <h1 className="heading text-third">Experience</h1>
+      <h1 className="heading text-third">{sectionTitles.experience}</h1>
       <div className="w-full mx-auto mt-15 sm:px-16  grid xl:grid-cols-2 lg:justify-items-start justify-items-center grid-cols-1 gap-x-5 sm:gap-y-15 gap-y-20">
         {works.map((data, index) => (
           <ExperienceCard key={index} data={data} index={index} />

@@ -1,10 +1,10 @@
 import React from "react";
-import { ContactContent } from "../constants";
+import { ContactContent, sectionTitles } from "../constants";
 
 const Contact = () => {
   return (
     <div id="contact" className="sm:mt-20 md:px-16 px-5">
-      <h1 className="my-10  font-logo text-4xl">Contact Me</h1>
+      <h1 className="my-10  font-logo text-4xl">{sectionTitles.contact}</h1>
       <div className="flex md:flex-row flex-col md:items-center items-start gap-6 justify-between">
         <div className="flex flex-col gap-3">
           <span className="md:w-[60%] tracking-wider text-sm w-full">

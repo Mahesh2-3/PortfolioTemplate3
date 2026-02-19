@@ -1,5 +1,5 @@
 import React from "react";
-import { hero } from "../constants";
+import { hero, homeContent } from "../constants";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
           {hero.name}
         </div>
         <div className="text-third sm:text-xl text-lg">
-          I'm Currently working in{" "}
+          {homeContent.workingIn}{" "}
           <span className="font-semibold sm:text-2xl text-xl">
             {hero.currentlyWorking}
           </span>

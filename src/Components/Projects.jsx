@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../constants";
+import { projects, sectionTitles, projectButtons } from "../constants";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function ProjectCard({ data, index }) {
@@ -38,7 +38,7 @@ function ProjectCard({ data, index }) {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 rounded-lg  font-semibold hover:bg-opacity-80 transition"
             >
-              <FaGithub /> Code
+              <FaGithub /> {projectButtons.code}
             </a>
             <a
               href={data.link}
@@ -46,7 +46,7 @@ function ProjectCard({ data, index }) {
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-2 rounded-lg border font-semibold hover:bg-primary hover:text-black transition"
             >
-              <FaExternalLinkAlt /> Live
+              <FaExternalLinkAlt /> {projectButtons.live}
             </a>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Projects = () => {
   return (
     <div id="projects" className="w-full mx-auto mb-20 mt-10 pt-20">
       <h1 className="heading px-5 lg:w-[80%] w-full mx-auto text-3xl font-bold py-5 mb-12 text-third">
-        Projects
+        {sectionTitles.projects}
       </h1>
       <div className="w-full flex flex-col">
         {projects.map((data, index) => (
