@@ -1,12 +1,58 @@
-# React + Vite
+# Portfolio Template 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, fully responsive portfolio template built with **React** and **Tailwind CSS**. This template is designed to provide a high-quality, customizable starting point for your personal portfolio website.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Looks great on all devices, from mobile to desktop.
+- **Modern UI**: Clean and professional aesthetic with smooth animations.
+- **Easy Customization**: Built with Tailwind CSS for rapid styling changes.
+- **Performance Optimized**: Powered by Vite for fast development and production builds.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to get your portfolio up and running:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Mahesh2-3/PortfolioTemplate3.git
+cd PortfolioTemplate3
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173` to see your portfolio.
+
+## 🛠️ Built With
+
+- [React](https://react.dev/) - UI Library
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon Library
+
+## 📦 Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+If you find this template helpful, please give it a ⭐ on [GitHub](https://github.com/Mahesh2-3/PortfolioTemplate1)!
